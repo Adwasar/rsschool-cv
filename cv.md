@@ -27,27 +27,13 @@ Passionate trainee frontend developer with a desire to learn and grow in a colla
 
 ## __CODE EXAMPLE__
 
-__constructor function:__
+__Given an array of integers, return a new array with each value doubled.__
 
-    function Student(name, age, course) {
-        this.name = name;
-        this.age = age;
-        this.course = course;
-        this.student = true; 
-        this.hello = function() {
-            console.log(`Hello ${this.name}`);
-        };
+    let mainArr = [1, 2, 3];
+
+    function maps(arr) {
+      yreturn arr.map(item => item * 2);
     }
-    
-    Student.prototype.exit = function () {
-        console.log (`пользоватьель ${this.name} выщел из сети`);
-    };
-    
-    const vladislav = new Student('Vladislav', 24, 5);
-    const marta = new Student('Marta', 20, 3);
-    
-    vladislav.hello();
-    marta.exit();
 
 ## __LANGUAGES__
  * __English__ - Pre-Intermediate (A2) 
@@ -69,7 +55,7 @@ The company was a call center. My task was to sell wired Internet connection ser
 
 __2015 - 2019 / Kharkiv State Academy of Culture__ 
 
-obtained qualification:<br>
+Оbtained qualification:<br>
 Bachelor Degree<br>
 Program Subjects Area Management<br>
 Professional qualification<br>
